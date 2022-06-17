@@ -1,0 +1,171 @@
+@import url("(https://fonts.google.com/specimen/Lexend+Deca)");
+@import url("(https://fonts.google.com/specimen/Big+Shoulders+Display)");
+
+*{
+    margin: 0%;
+    padding: 0;
+    
+}
+body {
+  background-image: linear-gradient(
+    115deg,
+    rgba(232, 16, 77, 0.407), 
+    rgba(222, 57, 76, 0.356)
+  ), url("bg-intro-desktop.png");
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+
+}
+@media (max-width: 375px) {
+  .container {
+    display: grid;
+    color: green;
+  }
+  
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+ h1 {
+  color: hsl(0, 0%, 95%) ;
+  margin: 10px;
+  margin-bottom: 20px; 
+  
+}
+.texts {
+  color: hsl(0, 0%, 95%) ;
+  margin: auto 10px;
+  margin-right: 0;
+
+
+}
+.caption {
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color: #412067;
+  line-height: 25px;
+  margin-bottom: 30px;
+  padding: 15px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  border-radius: 10px;
+  
+}
+.section {
+  margin: auto;
+  width: 100%
+}
+.anothersection {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 100px;
+  margin-top: 15%;
+  margin-left: 0;
+  margin-right: 50px;
+  
+}
+
+
+form {
+  width: 500px;
+  height: 100%;
+  background-color:  hsl(0, 0%, 95%);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+    
+  }
+  @media (max-width: 375px){
+    .container {
+      display: none;
+    }
+    
+  }
+  
+  /*@media (min-width: 480px) {
+    
+    form {
+      padding: 2.5rem;
+    }
+  }*/
+ 
+  
+  .form-group {
+    width: 83%;
+    margin: 10px;
+    padding: 10px;
+    justify-items: center;
+    align-items: center;
+    display: block;
+  }
+  
+  .form-control {
+    display: inline-block;
+    width: 100%;
+    margin: 2px auto 2px auto;
+    padding: 20px;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .form-control:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 8px rgba(0, 123, 255, 0.25);
+  }
+  
+  
+  .submit-button {
+    display: block;
+    width: 110%;
+    padding: 15px;
+    color: hsl(0, 0%, 95%);
+    background: rgb(50, 165, 90);
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
+    box-shadow: 0 0 0 5px rgb(50, 165, 90);
+    border: none;
+  }
+  button a {
+    text-decoration: none;
+    border: none;
+    color: hsl(0, 0%, 95%);
+  }
+  .closing {
+    font-size: 10px;
+    margin: 8px auto 10px auto;
+    text-align: center;
+  }
+  p a{
+    text-decoration: none;
+    color: #412067;
+  }
+
+  @media (max-width: 700px) {
+    .container {
+      display: grid;
+      color: green;
+    }
+    
+  }
+  a {
+    text-decoration: none;
+    color: #0f0f10;
+    background-color: rgba(191, 180, 180, 0.856);
+    
+  }
+  .lastanchor {
+    text-decoration: none;
+    color: #0f0f10;
+    background-color: rgba(191, 180, 180, 0.856);
+    
+  }
